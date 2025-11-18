@@ -47,7 +47,7 @@ def speech_to_video(
             prompt=prompt,
             input_image=input_image,
             negative_prompt=negative_prompt,
-            seed=0,
+            seed=0 + r,
             num_frames=infer_frames + 1,
             height=height,
             width=width,
